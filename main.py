@@ -1,4 +1,10 @@
 from fastapi import FastAPI
+from routes import planner
+
+app = FastAPI(title="PawPlan API")
+
+app.include_router(Planner.router)
+
 
 app = FastAPI()
 
