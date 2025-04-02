@@ -28,3 +28,6 @@ def generate_meal_plan(pet: Pet) -> MealPlan:
         total_fat=total_fat,
         total_carbs=total_carbs
     )
+
+def get_foods() -> list[FoodItem]:
+    return food_db
